@@ -1,45 +1,47 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <title>Formulario Estudiante</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/EstilosForms.css">
+    <title>Formulario para Estudiante</title>
 </head>
 <body>
+    <h1>Formulario de Estudiante</h1>
     <form>
-        <label for="id">Identificación:</label>
-        <input type="text" id="id" name="id" required><br>
+        <label for="idEstudiante">Identificación:</label>
+        <input type="text" id="idEstudiante" name="idEstudiante" required><br />
 
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="nombreEstudiante">Nombre:</label>
+        <input type="text" id="nombreEstudiante" name="nombreEstudiante" required><br />
 
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="apellidoEstudiante">Apellido:</label>
+        <input type="text" id="apellidoEstudiante" name="apellidoEstudiante" required><br />
 
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required><br>
+        <label for="emailEstudiante">Correo Electrónico:</label>
+        <input type="email" id="emailEstudiante" name="emailEstudiante" required><br />
 
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" required><br>
-
-        <label for="carrera">Carrera:</label>
-        <input type="text" id="carrera" name="carrera"><br>
-
-        <label for="añoIngreso">Año de Ingreso:</label>
-        <input type="number" id="añoIngreso" name="añoIngreso"><br>
+        <label for="edadEstudiante">Edad:</label>
+        <input type="number" id="edadEstudiante" name="edadEstudiante" required><br />
 
         <label>Género:</label>
-        <input type="radio" id="masculino" name="genero" value="Masculino">
-        <label for="masculino">Masculino</label>
-        <input type="radio" id="femenino" name="genero" value="Femenino">
-        <label for="femenino">Femenino</label>
-        <input type="radio" id="otro" name="genero" value="Otro">
-        <label for="otro">Otro</label><br>
+        <input type="radio" id="masculinoEstudiante" name="generoEstudiante" value="Masculino">
+        <label for="masculinoEstudiante">Masculino</label>
+        <input type="radio" id="femeninoEstudiante" name="generoEstudiante" value="Femenino">
+        <label for="femeninoEstudiante">Femenino</label>
+        <input type="radio" id="otroEstudiante" name="generoEstudiante" value="Otro">
+        <label for="otroEstudiante">Otro</label><br />
 
-        <input type="checkbox" id="terminos" name="terminos" required>
-        <label for="terminos">Acepto los términos y condiciones</label><br>
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required><br />
 
-        <button type="submit">Enviar</button>
+        <label for="añoIngreso">Año de Ingreso:</label>
+        <input type="number" id="añoIngreso" name="añoIngreso" required><br />
+
+        <input type="checkbox" id="terminosEstudiante" name="terminosEstudiante" required>
+        <label for="terminosEstudiante">Acepto los términos y condiciones</label><br />
+
+        <input type="submit" value="Enviar">
     </form>
-
 </body>
 </html>
