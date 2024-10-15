@@ -121,6 +121,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\FormEstudiante.html" />
+    <Content Include="Pages\FormProfesor.html" />
+    <Content Include="Pages\FormUsuario.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
